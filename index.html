@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" c1tent="IE=edge">
+    <meta name="viewport" c1tent="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script defer src="accuracy.js" type="module"></script>
+    <title>Watery</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="p1">Watery</h1>
+        <p class="p1">Website to predict if your plants need water</p>
+      </div>
+      <br></br>
+
+   <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="guide.html">User guide</a></li>
+    <li><a href="decisiontree.html">Decision tree</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+
+   <h2 class="p1">Accuracy</h2>
+   <p class="p1">below you can see the accuracy of our predictions</p>
+   <div class="p1" id="accuracy">Accuracy : - </div>
+    
+    
+
+    <h2 class="p1">Does your plant need water?</h2>
+    <p class="p1">Please fill out the needed information in this form so we can predict if your plant needs water or not. If you have more questions please go to our user guide for more information on how to get the correct values. </p>
+   
+        <div>
+            <label for="soil_moisture"> <h3 class="p1">What is the soil moisture?</h3></label>
+            <p class="p1">What is the soil moisture you measured with soil moisture sensor?</p>
+            <input type="text" id="soil_moisture" name="soil_moisture">
+        </div><br/>
+
+        <div>
+            <label for="temperature"><h3 class="p1">What is the temperature?</h3></label>
+            <p class="p1">What is the temperature you measured with the temperature sensor? (in degrees fahrenheit ) </p>
+            <input type="text" id="temperature" name="temperature?">
+        </div><br/>
+
+        <div>
+            <label for="air_humidity"><h3 class="p1">What is the air humidity?</h3></label>
+            <p class="p1">What is the air humidity you measurees with the humidity sensor?</p>
+            <input type="text" id="air_humidity" name="air_humidity">
+        </div><br/>
+        
+        <div>
+        <button type="button" id="button" value="Calculate" > Submit</button>
+        </div>
+
+        <br></br>
+
+        <h2 class="p1">Prediction</h2>
+        <p class="p1">Here it will show you if your plants needs water or not based on your submitted input</p>
+        <div class="p1" id="prediction">prediction : - </div>
+
+    </br>
+
+        <div class="footer">
+            <p>This website was made by Micha van der Willigen (0990603@hr.nl)</p>
+          </div>
+        
+    
+</body>
+</html>

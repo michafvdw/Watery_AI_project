@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" c1tent="IE=edge">
+    <meta name="viewport" c1tent="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script defer src="accuracy.js" type="module"></script>
+    <title>Decision Tree tarp.csv</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="p1">Watery</h1>
+        <p class="p1">Website to predict if your plants need water</p>
+      </div>
+      <br></br>
+   <!-- <div id="view"></div> !-->
+   <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="guide.html">User guide</a></li>
+    <li><a href="decisiontree.html">Decision tree</a></li>
+    <li><a class="active" href="about.html">About</a></li>
+  </ul>
+
+  <h2 class="p1">About</h2>
+   <p class="p1">Here you can read about why we created Watery, who's behind the project and how you can contact us for future updates</p>
+   <div class="p1"> My name is Micha, I'm a second year student at the hogeschool Rotterdam majoring in creative media and game technologies. My goal 
+                    is to bring creative solutions to everyday problems people face. Watery was created for a project at the hogeschool Rotterdam involving AI and sustainability. We aim to make it easier   
+                    for people at home (without a garden, living in urban cities) to have (alive!) plants in their home. You probably know 
+                    the struggle all too well of having your plants keep dying on you. With Watery we hope to make this easier for you. 
+                    With both our sensors measuring data from your plant and our website making the predictions for you. 
+                    <br></br>
+
+                    If you have any questions you can contact me at 0990603@hr.nl or use the form below.
+                   </div>
+                </br>
+
+    <h2 class="p1">Contact form</h2>
+    <p class="p1">Please fill out this form if you wish to contact me via email</p>
+    <div>        
+    <form action="mailto:0990603@hr.nl"
+        method="POST"
+        enctype="multipart/form-data"
+        name="EmailForm">
+            <p class="p1">Name:</p>
+                <input type="text" size="19" name="Contact-Name"><br>
+            <p class="p1"> Email:</p>
+                <input type="email" name="Contact-Email"><br>
+            <p class="p1">Message:</p>
+                <textarea name="Contact-Message" rows="6″ cols="20″>
+                </textarea><br><br> 
+            <button type="submit" value="Submit">Send</button>
+    </form>  
+</div>    
+
+    </br>
+
+        <div class="footer">
+            <p>This website was made by Micha van der Willigen (0990603@hr.nl)</p>
+          </div>
+        
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" c1tent="IE=edge">
+    <meta name="viewport" c1tent="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script defer src="decisiontree.js" type="module"></script>
+    <title>Watery</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="p1">Watery</h1>
+        <p class="p1">Website to predict if your plants need water</p>
+      </div>
+      <br></br>
+   <!-- <div id="view"></div> !-->
+   <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="guide.html">User guide</a></li>
+    <li><a class="active" href="decisiontree.html">Decision tree</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+
+  <h2 class="p1">Decision tree</h2>
+   <p class="p1">below you can see a visualized decision tree. Decision trees are a non-parametric sypervised learning method used for classifcatio9n and regression. 
+                The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from data features. A
+                A tree can bee seen as a piecewise constant approximation. 
+   </p>
+  <div id="view"></div> 
+
+   <h2 class="p1">Accuracy</h2>
+   <p class="p1">below you can see the accuracy of our predictions</p>
+   <div class="p1" id="accuracy">Accuracy : - </div>
+      
+
+    </br>
+
+        <div class="footer">
+            <p>This website was made by Micha van der Willigen (0990603@hr.nl)</p>
+          </div>
+        
+    
+</body>
+</html>
