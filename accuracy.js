@@ -1,10 +1,10 @@
-import { DecisionTree } from "/libraries/decisiontree.js"
-import { VegaTree } from "/libraries/vegatree.js"
+import { DecisionTree } from "https://michafvdw.github.io/week9/libraries/decisiontree.js"
+import { VegaTree } from "https://michafvdw.github.io/week9/libraries/vegatree.js"
 
 //
 // DATA
 //
-const csvFile = "data/tarp.csv"
+const csvFile = "https://michafvdw.github.io/week9/data/tarp.csv"
 const trainingLabel = "status"  
 const ignored = ["ph", "air_temperature", "wind_speed", "air_humidity", "wind_gust", "rainfall", "p", "k"]
 let decisionTree
