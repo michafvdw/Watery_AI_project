@@ -13,7 +13,7 @@ export class VegaTree {
     }    
 
     async loadConfigFile() {
-        const response = await fetch('./libraries/vegaconfig.json')
+        const response = await fetch('https://michafvdw.github.io/week9/libraries/vegaconfig.json')
         const config = await response.json()
         this.render(config)
     }
