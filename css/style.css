@@ -84,7 +84,7 @@ input[type=text], select {
 .header {
     padding: 60px;
     text-align: center;
-    background-image: url("/img/header2.png");
+    background-image: url("https://michafvdw.github.io/week9/img/header2.png");
     background-color: #1abc9c;
     color: white;
     font-size: 30px;
