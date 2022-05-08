@@ -10,7 +10,7 @@ De naam van de website is Watery: website to predict if your plants need water. 
 https://youtu.be/_XiNLWBton4 
 
 ### Github classroom 
-https://michafvdw.github.io/week9/ 
+https://michafvdw.github.io/watery_ai_project/ 
 
 ### Test met eindgebruiker 
 Ik heb met een eindgebruiker getest die tot de doelgroep (plant parents) van TLE behoort en geen voorkennis beschikt van de gebruikte techniek. Ik heb haar eerst de website laten bekijken. Op de website stond een user guide waar ten eerste op stond hoe je metingen moest doen met het fysieke product bij je plant en ten tweede hoe je vervolgens deze metingen moest invullen op de webgsite om zo een voorspelling te krijgen. Ik heb haar tijdens de test niet geholpen zodat ze alleen de hulp van de user guide had. Ze wist alles te vinden op de website en het lukte haar ook om de juiste manier met de sensoren metingen te doen. Daarna vulde ze de gegevens in op het formulier op de website, daar kwam uit dat de plant water nodig had. Haar feedback op het product was dat de website duidelijk was en het product ook duidelijk te gebruiker. Echter wat wel onduidelijk was, was in welke waardes ze het moest invullen. Bijvoorbeeld: er werd gevraagd om bodemvochtigheid maar er stond niet bij of dit in ML was of bijvoorbeeld in andere waarde. Ik heb toen later erbij gezet dat temperatuur in graden fahrenheit moest. Maar ik kon niet terugvonden wat bodemvocht moest zijn anders dan "sensorwaarde". In de user guide staat nu dat soil humidity gewoon de sensor waard in de monitor is.  <br>
